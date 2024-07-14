@@ -14,23 +14,23 @@
 
 ##  <br /> <a name="introduction">✨ Introduction</a>
 
-**[EN]** A cutting-edge AI SaaS platform that enables users to create, discover, and enjoy podcasts with advanced features like text-to-audio conversion with multi-voice AI, podcast thumbnail Image generation and seamless playback.
+**[EN]** Next.js application designed for seamless AI prompt sharing between users. Explore, create, and share prompts effortlessly with MongoDB integration and secure authentication via NextAuth. Enjoy a modern design and responsive interface for optimal user experience.
 
-**[FR]** Une plateforme SaaS d'IA de pointe qui permet aux utilisateurs de créer, découvrir et apprécier des podcasts avec des fonctionnalités avancées telles que la conversion de texte en audio avec une IA multi-voix, la génération d'images de miniature de podcast et une lecture en continu sans accroc.
+**[FR]** Application Next.js conçue pour le partage prompts entre utilisateurs. Découvrez, créez et partagez des prompts facilement grâce à l'intégration MongoDB et à l'authentification sécurisée via NextAuth. Profitez d'un design moderne et d'une interface responsive pour une expérience utilisateur optimale.
 
 ##  <br /> <a name="tech-stack">⚙️ Tech Stack</a>
 
 - **React** is a popular JavaScript library for building user interfaces, particularly single-page applications where data changes over time. React's component-based architecture allows developers to create reusable UI components, making development more efficient and the codebase easier to maintain. 
 
 - **Next.js** is a React framework known for its server-side rendering (SSR) and static site generation (SSG) capabilities, enhancing performance and SEO for web applications. It offers features like automatic code splitting, API routes for server-side logic, and a plugin system for extensibility.
+  
+- **NextAuth** is an authentication library for Next.js and Express.js. It simplifies integration with various authentication providers (such as Google, Facebook, GitHub) and local authentication methods. NextAuth manages user sessions and token handling securely, providing a smooth and secure authentication experience for modern web applications.
 
 - **MongoDB** is a NoSQL database system known for its flexibility and scalability, ideal for handling large volumes of unstructured or semi-structured data. It stores data in JSON-like documents, making it easy to integrate with modern applications. MongoDB's features include powerful querying capabilities, automatic sharding for horizontal scaling, flexible data models, and support for distributed transactions in recent versions.
 
 - **Mongoose** is an ODM (Object Data Modeling) library for MongoDB and Node.js. It simplifies interactions with MongoDB by allowing developers to define data models with strict schemas, built-in validations, database action hooks, and methods to streamline CRUD (Create, Read, Update, Delete) operations.
 
 - **Bcrypt** is a password hashing function based on Blowfish. It is used to securely hash passwords before storing them in a database. bcrypt is known for its resistance to brute-force attacks and deliberately slow hashing process, making it suitable for securing sensitive data like user passwords.
-
-- **NextAuth** is an authentication library for Next.js and Express.js. It simplifies integration with various authentication providers (such as Google, Facebook, GitHub) and local authentication methods. NextAuth manages user sessions and token handling securely, providing a smooth and secure authentication experience for modern web applications.
 
 - **Tailwind** is a utility-first CSS framework that speeds up UI development by providing a set of pre-built utility classes. It allows developers to quickly build custom designs without writing traditional CSS, promoting rapid prototyping and design consistency.
 
